@@ -1,0 +1,31 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                quality   R-squared:                       0.344
+Model:                            OLS   Adj. R-squared:                  0.341
+Method:                 Least Squares   F-statistic:                     141.6
+Date:                Mon, 02 Nov 2026   Prob (F-statistic):          5.74e-121
+Time:                        19:51:59   Log-Likelihood:                -1378.0
+No. Observations:                1359   AIC:                             2768.
+Df Residuals:                    1353   BIC:                             2799.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const              -11.7580     13.289     -0.885      0.376     -37.828      14.312
+alcohol              0.3268      0.021     15.651      0.000       0.286       0.368
+volatile acidity    -1.3299      0.125    -10.667      0.000      -1.574      -1.085
+sulphates            0.6808      0.114      5.984      0.000       0.458       0.904
+citric acid         -0.1585      0.131     -1.209      0.227      -0.416       0.099
+density             14.3184     13.248      1.081      0.280     -11.671      40.308
+==============================================================================
+Omnibus:                       24.074   Durbin-Watson:                   1.780
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               37.550
+Skew:                          -0.154   Prob(JB):                     7.02e-09
+Kurtosis:                       3.754   Cond. No.                     1.10e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.1e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

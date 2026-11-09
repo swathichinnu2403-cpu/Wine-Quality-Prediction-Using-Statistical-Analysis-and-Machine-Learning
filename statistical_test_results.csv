@@ -1,0 +1,4 @@
+Test,H0,H1,Alpha,Test Statistic,P-value,Decision
+Pearson correlation,Population linear correlation = 0,Population linear correlation != 0,0.05,0.48034289800199154,2.27872113254117e-79,Reject H0
+Spearman correlation,Population rank correlation = 0,Population rank correlation != 0,0.05,0.4879646054459786,3.2380461109572784e-82,Reject H0
+Welch independent t-test,Population group means are equal,Population group means differ,0.05,16.20951686195764,2.0005604539238644e-40,Reject H0

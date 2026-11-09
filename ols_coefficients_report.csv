@@ -1,0 +1,7 @@
+,Coefficient,P-value,CI Lower,CI Upper
+const,-11.758,0.3764,-37.8282,14.3121
+alcohol,0.3268,0.0,0.2858,0.3677
+volatile acidity,-1.3299,0.0,-1.5745,-1.0853
+sulphates,0.6808,0.0,0.4576,0.904
+citric acid,-0.1585,0.2269,-0.4156,0.0987
+density,14.3184,0.28,-11.6709,40.3077
